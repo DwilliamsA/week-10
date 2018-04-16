@@ -1,4 +1,7 @@
+:root {
    font-size: 24px;
+   font-family: 'Gamja Flower', cursive;
+}
 
 nav {
    border: 1px solid black;
