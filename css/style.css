@@ -20,6 +20,10 @@ nav ul li {
    display: inline-block;
 }
 
+nav ul li a {
+   display: block;
+}
+
 a:link {
    color: blue;
    text-decoration: none;
