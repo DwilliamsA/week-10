@@ -17,11 +17,14 @@ nav ul {
 
 nav ul li {
    width: 100px;
+   height: 80px;
    display: inline-block;
 }
 
 nav ul li a {
    display: block;
+   line-height: 80px;
+   transition: 375ms;
 }
 
 a:link {
