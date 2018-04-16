@@ -12,10 +12,6 @@ nav ul {
    margin-left: -40px;
 }
 
-nav a {
-   text-decoration: none;
-}
-
 nav ul li {
    width: 100px;
    display: inline-block;
@@ -23,7 +19,7 @@ nav ul li {
 
 a:link {
    color: blue;
-
+   text-decoration: none;
 }
 
 a:visited {
