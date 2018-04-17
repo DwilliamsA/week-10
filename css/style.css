@@ -58,3 +58,7 @@ main {
    border-bottom: 1px solid #aaa;
    padding-bottom: 2px;
 }
+
+.highlight {
+   background-color: yellow;
+}
