@@ -70,3 +70,33 @@ sup {
 .highlight {
    background-color: yellow;
 }
+
+ul {
+   list-style: none;
+}
+
+ul.first {
+   counter-reset: first-list 0;
+}
+
+ul.first li {
+   counter-increment: first-list;
+}
+
+ul.first li::before {
+   content: counter(first-list, lower-alpha) ' 🐀 ';
+   font-weight: bold;
+}
+
+ul.second {
+   counter-reset: second-list 4;
+}
+
+ul.second li {
+   counter-increment: second-list;
+}
+
+ul.second li::before {
+   content: counter(second-list, upper-alpha) ' 🥑 ';
+   font-weight: bold;
+}
