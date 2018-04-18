@@ -1,52 +1,17 @@
-:root {
-   font-size: 24px;
-   font-family: 'Gamja Flower', cursive;
-}
-
-nav {
-   display: block;
-   text-align: center;
-   padding: 0;
+main {
+   width: 800px;
    margin: auto;
-   width: 400px;
 }
 
-nav ul {
-   padding: 0;
-   margin: 0;
-   list-style: none;
+q {
+   float: left;
+   hanging-punctuation: first;
+   font-style: italic;
+   margin: 12px 12px 12px -36px;
+   width: 200px;
 }
 
-nav ul li {
-   width: 100px;
-   height: 80px;
-   display: inline-block;
-}
-
-nav ul li a {
-   display: block;
-   line-height: 80px;
-   width: 100%;
-   height: 100%;
-   transition: 375ms;
-}
-
-a:link {
-   color: blue;
-   text-decoration: none;
-}
-
-a:hover {
-   background-color: #ddf;
-}
-
-a:active {
-   background-color: red;
-}
-
-
-header {
-   margin: auto;
-   width: 585px;
-   display: flex;
+q:nth-child(2) {
+   float: right;
+   margin: 12px -36px 12px 12px;
 }
