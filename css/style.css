@@ -1,52 +1,26 @@
 :root {
    font-size: 24px;
-   font-family: 'Gamja Flower', cursive;
+   font-family: 'Open Sans', sans-serif;
 }
 
-nav {
-   display: block;
-   text-align: center;
-   padding: 0;
-   margin: auto;
-   width: 400px;
+ /* 0, 0, 1 */
+div p {
+   color: rebeccapurple;
 }
 
-nav ul {
-   padding: 0;
-   margin: 0;
-   list-style: none;
+/* 0, 0, 2 */
+section p {
+   color: pink;
 }
 
-nav ul li {
-   width: 100px;
-   height: 80px;
-   display: inline-block;
+/* 0, 1, 0 */
+.darth-maul {
+   color: red;
+   background-color: yellow;
 }
 
-nav ul li a {
-   display: block;
-   line-height: 80px;
-   width: 100%;
-   height: 100%;
-   transition: 375ms;
-}
-
-a:link {
+/* 1, 0, 0 */
+#palpatine {
    color: blue;
-   text-decoration: none;
-}
-
-a:hover {
-   background-color: #ddf;
-}
-
-a:active {
-   background-color: red;
-}
-
-
-header {
-   margin: auto;
-   width: 585px;
-   display: flex;
+   border: 1px solid #fad;
 }
