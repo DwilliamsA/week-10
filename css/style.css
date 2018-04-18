@@ -6,6 +6,10 @@ nav ul {
    list-style: none;
 }
 
+nav ul li {
+   display: inline-block;
+}
+
 a {
    text-decoration: none;
 }
