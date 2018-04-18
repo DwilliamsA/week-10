@@ -1,3 +1,7 @@
 :root {
    font-family: 'Open Sans', sans-serif;
 }
+
+nav ul {
+   list-style: none;
+}
