@@ -2,9 +2,21 @@
    font-family: 'Open Sans', sans-serif;
 }
 
+img {
+   width: 183px;
+}
+
+header {
+   display: flex;
+   width: 960px;
+   height: 80px;
+   margin: auto;
+
+}
+
 nav {
    width: 400px;
-   margin: auto;
+   margin-left: 375px;
 }
 
 nav ul {
@@ -16,8 +28,8 @@ nav ul {
 nav ul li {
    display: inline-block;
    width: 100px;
-   height: 100px;
-   line-height: 100px;
+   height: 80px;
+   line-height: 80px;
    text-align: center;
 }
 
