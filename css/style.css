@@ -11,12 +11,11 @@ header {
    width: 960px;
    height: 80px;
    margin: auto;
-
+   justify-content: space-between;
 }
 
 nav {
    width: 400px;
-   margin-left: 375px;
 }
 
 nav ul {
